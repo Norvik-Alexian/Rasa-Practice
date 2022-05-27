@@ -132,3 +132,4 @@ dmypy.json
 # Rasa
 .rasa/
 models/
+rasa.db
