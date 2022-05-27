@@ -9,6 +9,8 @@ intents:
   - mood_unhappy
   - bot_challenge
   - play_game
+  - faq_chitchat
+  - faq_about_rasa
 
 entities:
   - game
@@ -44,7 +46,16 @@ responses:
   - text: "Ok! let's play {game}"
 
   utter_out_of_scope:
-  - text: Sorry, I can't handle that request.
+  - text: "Sorry, I can't handle that request."
+
+  utter_please_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+
+  # The response uttered by action_default_fallback,
+  # triggered by the core RulePolicy when no policy
+  # predicts next action with high enough confidence.
+  utter_default:
+  - text: "Sorry I don’t know what to do next. Can you try again?"
 
 session_config:
   session_expiration_time: 60
