@@ -1,0 +1,17 @@
+version: "3.1"
+nlu:
+- intent: 'faq_about_rasa/ask_ceo'
+  examples: |
+    - who is your CEO?
+    - what is the name of Rasa's CEO? - do you have a CEO at Rasa?
+- intent: 'faq_about_rasa/ask_cto'
+  examples: |
+    - who is your CTO?
+    - what is the name of Rasa's CTO? - do you have a CTO at Rasa?
+- intent: 'faq_about_rasa/ask_founders'
+  examples: |
+    - who are the founders of Rasa?
+    - do you know the name of the founders of Rasa? - do you know who founded rasa?
+    - who founded rasa?
+    - what are the names of your founders?
+    - what are the names of rasa's founders?

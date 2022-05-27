@@ -1,0 +1,13 @@
+version: "3.1"
+nlu:
+- intent: 'faq_chitchat/ask_name'
+  examples: |
+    - what's your name
+    - who are you?
+    - what are you called?
+- intent: 'faq_chitchat/ask_weather'
+  examples: |
+    - how's the weather?
+    - is it sunny where you are? - is it hot today?
+    - is it cold?
+    - what is the temperature? - Is it raining right now? - Did it snow a lot?
