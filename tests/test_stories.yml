@@ -89,3 +89,21 @@ stories:
       are you a bot?
     intent: bot_challenge
   - action: utter_iamabot
+
+- story: play ping pong
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      play [ping pong](game)
+    intent: play_game
+  - action: utter_lets_play
+
+- story: out of scope test
+  steps:
+  - user: |
+      I want pizza
+    intent: out_of_scope
+  - action: utter_out_of_scope
