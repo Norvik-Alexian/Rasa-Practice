@@ -16,3 +16,18 @@ rules:
   steps:
   - intent: out_of_scope
   - action: utter_out_of_scope
+
+- rule: respond to chitchat FAQs
+  steps:
+  - intent: faq_chitchat
+  - action: utter_faq_chitchat
+
+- rule: respond to FAQs about rasa
+  steps:
+  - intent: faq_about_rasa
+  - action: utter_faq_about_rasa
+
+- rule: NLU fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
