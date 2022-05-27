@@ -1,0 +1,8 @@
+version: "3.1"
+responses:
+ utter_faq_about_rasa/ask_ceo:
+  - text: Our CEO is Melissa Gordon
+ utter_faq_about_rasa/ask_cto:
+  - text: Our CTO is Alan Nichol
+ utter_faq_about_rasa/ask_founders:
+  - text: Our founders are Alex Weidauer and Alan Nichol
