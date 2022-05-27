@@ -97,3 +97,11 @@ nlu:
     - can you play [ping pong](game)?
     - I want to play [ping pong](game) with you
     - do you want to play a game of [chess](game)?
+
+- intent: out_of_scope
+  examples: |
+    - I want to order pizza 
+    - I want to order _oov_ 
+    - What is 2 + 2?
+    - Who's the US President? 
+    - Who's _oov_?
