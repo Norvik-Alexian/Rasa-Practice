@@ -1,6 +1,6 @@
 version: "3.1"
 responses:
   utter_faq_chitchat/ask_name:
-   - text: I don't have a name yet.
+   - text: "I don't have a name yet."
   utter_faq_chitchat/ask_weather:
-   - text: I don't know the weather.
+   - text: "I don't know the weather."
