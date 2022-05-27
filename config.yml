@@ -13,6 +13,7 @@ pipeline:
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: CountVectorsFeaturizer
+  OOV_token: _oov_
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
