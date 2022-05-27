@@ -92,7 +92,8 @@ nlu:
 
 - intent: play_game
   examples: |
-    - play ping pong
-    - do you want to play ping pong?
-    - can you play ping pong?
-    - I want to play ping pong with you
+    - play [ping pong](game)
+    - do you want to play [ping pong](game)?
+    - can you play [ping pong](game)?
+    - I want to play [ping pong](game) with you
+    - do you want to play a game of [chess](game)?
